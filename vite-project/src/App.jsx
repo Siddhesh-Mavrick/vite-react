@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './stylings/App.css'
 import Car from './Car'
+import Home from './components/Home'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,6 +15,8 @@ function App() {
       </div>
 
       <Car name = 'ford'/>
+
+      <Home />
     </>
   )
 }
